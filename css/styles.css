@@ -23,6 +23,20 @@ a{
   color: #ea97ad;
 }
 
-img{
+/* Esto es un ejemplo de como usar una regla css
+específica para una clase previamente establecida,
+un mismo elemento puede tener varias clases */
+
+.logo {
   height: 250px;
+}
+
+/* Existe otro elemento denominado id, que es en
+esencia lo mismo, la diferencia es que solo puedes usar
+id especifico y si una misma clase, por tanto clase se usa
+para agrupar elementos que se van a comportar igual e id
+es para elementos que se van a comportar diferentes a todos */
+
+#nombre {
+  font-family: Brush Script MT; 
 }
