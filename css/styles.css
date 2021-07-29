@@ -84,3 +84,23 @@ playbook {
   display: inline; /* elementos en una misma linea pero a los que no les puedes
   cambiar la anchura */
 }
+
+.nube {
+  display: inline-block;
+}
+
+#nube1 {
+  
+}
+
+#nube2 {
+
+}
+
+#nube3 {
+
+}
+
+#nube4 {
+
+}
