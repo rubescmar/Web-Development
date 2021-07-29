@@ -88,20 +88,22 @@ playbook {
 .nube {
   display: inline-block;
   background-color: #f3f2da;
+  height: 200;
+  position: absolute;
 }
 
 #nube1 {
-
+  margin: 50px 0px 0px -600px;
 }
 
 #nube2 {
-
+  margin: 50px 0px 0px 350px;
 }
 
 #nube3 {
-
+  margin: 350px 0px 0px -600px;
 }
 
 #nube4 {
-
+  margin: 350px 0px 0px 350px;
 }
