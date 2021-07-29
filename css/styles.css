@@ -47,3 +47,8 @@ cuando pasas el raton por encima sin clickar */
 .link:hover {
   opacity: 0.5;
 }
+
+.intro {
+  padding: 20;
+  margin: auto;
+}
