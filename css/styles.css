@@ -42,6 +42,9 @@ ol {
 
 table {
   display: inline-block;
+}
+
+td {
   text-align: left;
 }
 
