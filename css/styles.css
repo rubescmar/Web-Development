@@ -32,10 +32,12 @@ a{
 
 ul {
   display: inline-block;
+  text-align: left;
 }
 
 ol {
   display: inline-block;
+  text-align: left;
 }
 
 table {
