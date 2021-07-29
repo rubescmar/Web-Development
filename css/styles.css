@@ -3,6 +3,7 @@ body {
   color: #045762;
   text-align: center;
 
+
 }
 
 hr {
@@ -27,6 +28,14 @@ h3{
 
 a{
   color: #ea97ad;
+}
+
+ul {
+  display: inline-block;
+}
+
+ol {
+  display: inline-block;
 }
 
 /* Esto es un ejemplo de como usar una regla css
