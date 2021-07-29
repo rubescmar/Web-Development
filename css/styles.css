@@ -14,8 +14,8 @@ hr {
   width: 20%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h1{
@@ -67,11 +67,7 @@ cuando pasas el raton por encima sin clickar */
   opacity: 0.5;
 }
 
-.intro {
-  padding: 20;
-  margin-left: 999;
-  margin-right: 999;
-}
+
 
 .span {
   color: #ea97ad;
@@ -88,7 +84,7 @@ playbook {
 .nube {
   display: inline-block;
   background-color: #f3f2da;
-  height: 200;
+  height: 200px;
   position: absolute;
 }
 
