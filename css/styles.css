@@ -89,17 +89,17 @@ playbook {
 }
 
 #nube1 {
-  margin: 50px 0px 0px -600px;
+  margin: 50px 50px 0px 0px;
 }
 
 #nube2 {
-  margin: 50px 0px 0px 350px;
+  margin: 50px 0px 0px 50px;
 }
 
 #nube3 {
-  margin: 350px 0px 0px -600px;
+  margin: 350px 50px 0px 0px;
 }
 
 #nube4 {
-  margin: 350px 0px 0px 350px;
+  margin: 350px 0px 0px 50px;
 }
