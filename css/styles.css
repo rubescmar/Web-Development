@@ -51,4 +51,5 @@ cuando pasas el raton por encima sin clickar */
 .intro {
   padding: 20;
   margin: auto;
+  align-items: center;
 }
