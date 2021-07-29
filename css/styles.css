@@ -1,6 +1,6 @@
 body {
-  background-color: #f3f2da;
-  color: #045762;
+  background-color: #b7efcd;
+  color: #363636;
   text-align: center;
   margin: 10px;
 }
@@ -8,7 +8,7 @@ body {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #ea97ad;
+  border-color: #ffbcbc;
   border-width: 5px;
   width: 20%;
   margin-left: auto;
@@ -27,7 +27,7 @@ h3{
 }
 
 a{
-  color: #ea97ad;
+  color: #ffbcbc;
 }
 
 ul {
@@ -55,6 +55,7 @@ un mismo elemento puede tener varias clases */
 
 .logo {
   height: 250px;
+  border-radius: 50%;
 }
 
 /* Existe otro elemento denominado id, que es en
@@ -77,7 +78,7 @@ cuando pasas el raton por encima sin clickar */
 
 
 .span {
-  color: #ea97ad;
+  color: #ffbcbc;
   font-family: Brush Script MT;
 }
 playbook {
@@ -90,7 +91,6 @@ playbook {
 
 .nube {
   display: inline-block;
-  background-color: #f3f2da;
   height: 150px;
 }
 
