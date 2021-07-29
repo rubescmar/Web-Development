@@ -2,8 +2,7 @@ body {
   background-color: #f3f2da;
   color: #045762;
   text-align: center;
-
-
+  margin: 10px;
 }
 
 hr {
@@ -24,6 +23,7 @@ h1{
 
 h3{
   color: #4e8d7c;
+  width: auto;
 }
 
 a{
@@ -33,6 +33,7 @@ a{
 ul {
   display: inline-block;
   text-align: left;
+  margin: 10px;
 }
 
 ol {
@@ -102,9 +103,9 @@ playbook {
 }
 
 #nube3 {
-  margin: 0px 50px 0px 0px;
+  margin: 0px 111px 0px 0px;
 }
 
 #nube4 {
-  margin: 0px 0px 0px 50px;
+  margin: 0px 0px 0px 111px;
 }
