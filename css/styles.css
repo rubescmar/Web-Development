@@ -2,7 +2,7 @@ body {
   background-color: #f3f2da;
   color: #045762;
   text-align: center;
-  
+
 }
 
 hr {
@@ -10,7 +10,11 @@ hr {
   border-top-style: dotted;
   border-color: #ea97ad;
   border-width: 5px;
-  width: 11%;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h1{
