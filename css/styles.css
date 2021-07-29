@@ -38,6 +38,10 @@ ol {
   display: inline-block;
 }
 
+table {
+  display: inline-block;
+}
+
 /* Esto es un ejemplo de como usar una regla css
 específica para una clase previamente establecida,
 un mismo elemento puede tener varias clases */
