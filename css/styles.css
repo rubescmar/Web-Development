@@ -52,5 +52,9 @@ cuando pasas el raton por encima sin clickar */
   padding: 20;
   margin-left: 999;
   margin-right: 999;
-  
+}
+
+.span {
+  color: #ea97ad;
+  font-family: Brush Script MT;
 }
