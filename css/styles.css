@@ -58,3 +58,10 @@ cuando pasas el raton por encima sin clickar */
   color: #ea97ad;
   font-family: Brush Script MT;
 }
+playbook {
+  display: inline-block; /* inline que se comportan como bloques */
+  display: block; /* elementos en bloque, unos al lado de otros, les puedes
+  cambiar la anchura pero no ocupan toda la anchura disponible */
+  display: inline; /* elementos en una misma linea pero a los que no les puedes
+  cambiar la anchura */
+}
