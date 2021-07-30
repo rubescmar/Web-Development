@@ -13,6 +13,26 @@ body {
   text-align: center;
   margin: 10px;
   font-family: 'Roboto', sans-serif;
+  line-height: 2;
+  font-weight: 400;
+}
+
+
+
+.intro {
+  width: 75%;
+  margin: 0 auto 0 auto;
+}
+
+.mid-container {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.footer-container {
+  width: 50%;
+  margin: 0 auto 0 auto;
 }
 
 hr {
@@ -23,21 +43,22 @@ hr {
   width: 20%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h1{
   color: #4e8d7c;
   font-family: 'Marck Script', cursive;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h3{
   color: #4e8d7c;
-  width: auto;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
+  margin: 0 auto 50px auto;
+  text-align: center;
 }
 
 a{
@@ -47,19 +68,20 @@ a{
 }
 
 ul {
-  display: inline-block;
+  display: table;
   text-align: left;
-  margin: 0 0 10 0;
-
-}
-
-ol {
-  display: inline-block;
-  text-align: left;
+  margin: 0 auto 0 auto;
 }
 
 ul li::marker{
   color: #E89A9A;
+}
+
+ol {
+  display: table;
+  width: auto;
+  text-align: left;
+  margin: 0 auto 0 auto;
 }
 
 ol li::marker{
@@ -68,7 +90,8 @@ ol li::marker{
 }
 
 table {
-  display: inline-block;
+  display: table;
+  margin: 0 auto 0 auto;
 }
 
 td {
@@ -85,31 +108,25 @@ un mismo elemento puede tener varias clases */
 }
 
 .nube {
-  display: inline-block;
-  height: 110px;
+  width: 35%;
   filter: hue-rotate(65deg);
+  display: none;
 }
 
-/* Existe otro elemento denominado id, que es en
+/* Existe otro elemento denominado #id, que es en
 esencia lo mismo, la diferencia es que solo puedes usar
 id especifico y si una misma clase, por tanto clase se usa
 para agrupar elementos que se van a comportar igual e id
 es para elementos que se van a comportar diferentes a todos */
 
-#nube1 {
-  margin: 0px 50px 0px 0px;
+.nube.nube-izq {
+  margin: 70px 0 auto 50px;
+  float: right;
 }
 
-#nube2 {
-  margin: 0px 0px 0px 50px;
-}
-
-#nube3 {
-  margin: 0px 111px 0px 0px;
-}
-
-#nube4 {
-  margin: 0px 0px 0px 111px;
+.nube.nube-der {
+  margin: 70px 50px auto 0;
+  float: left;
 }
 
 .star {
@@ -128,9 +145,11 @@ cuando pasas el raton por encima sin clickar */
   opacity: 0.5;
 }
 
-.span {
-  color: #E89A9A;
+span {
+  color: #4e8d7c;
   font-family: 'Marck Script', cursive;
+  font-size: 2.6rem;
+  text-decoration: underline;
 }
 
 .btn {
@@ -146,6 +165,10 @@ cuando pasas el raton por encima sin clickar */
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e89a9a;
   margin-bottom: 30px;
+}
+
+.btn:hover{
+  opacity: 0.5;
 }
 
 .btn:active {
