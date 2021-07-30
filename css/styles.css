@@ -72,6 +72,7 @@ es para elementos que se van a comportar diferentes a todos */
 
 #nombre {
   font-family: 'Marck Script', cursive;
+  font-size: xxx-large;
 }
 
 /* hover es para especificar el comportamiento de un elemento
