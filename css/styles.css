@@ -43,6 +43,7 @@ h3{
 a{
   color: #E89A9A;
   font-weight: bold;
+  text-decoration: none;
 }
 
 ul {
@@ -131,6 +132,28 @@ cuando pasas el raton por encima sin clickar */
   color: #E89A9A;
   font-family: 'Marck Script', cursive;
 }
+
+.btn {
+  background-color:#363636;
+	border-radius:28px;
+	border:1px solid #363636;
+	display:inline-block;
+	cursor:pointer;
+	color:#e89a9a;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e89a9a;
+  margin-bottom: 30px;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
 playbook {
   display: inline-block; /* inline que se comportan como bloques */
   display: block; /* elementos en bloque, unos al lado de otros, les puedes
