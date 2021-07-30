@@ -1,7 +1,11 @@
 /* GOOGLE FONTS PARA INCLUIR FUENTES VIA INTERNET EN LA MISMA PAGINA WEB,
 DE ESTA FORMA INCLUSO SI NO TIENES LA FUENTE INSTALADA, SE RENDERIZA VIA WEB */
 
-/*font-size 16px = 100% = 1em*/
+/*font-size 16px = 100% = 1em, porcentajes y em se heredan, es decir,
+se aplican sobre el valor del contenedor en el que esté, por ejemplo, si
+aplico 2em al body y en H1 tenía ya 2em, el valor final de H1 sería algo
+así como 4em, para evitar esto podríamos usar rem en vez de em, sería em
+sobre el valor root, asi que obviaría los cambios en contenedores padres */
 
 body {
   background-color: #CAF7E3;
@@ -14,7 +18,7 @@ body {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #ffbcbc;
+  border-color: #E89A9A;
   border-width: 5px;
   width: 20%;
   margin-left: auto;
@@ -26,28 +30,40 @@ hr {
 h1{
   color: #4e8d7c;
   font-family: 'Marck Script', cursive;
-  font-size: 5em;
+  font-size: 5rem;
 }
 
 h3{
   color: #4e8d7c;
   width: auto;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
 }
 
 a{
-  color: #ffbcbc;
+  color: #E89A9A;
+  font-weight: bold;
 }
 
 ul {
   display: inline-block;
   text-align: left;
   margin: 0 0 10 0;
+
 }
 
 ol {
   display: inline-block;
   text-align: left;
+}
+
+ul li::marker{
+  color: #E89A9A;
+}
+
+ol li::marker{
+  color: #E89A9A;
+  font-weight: bold;
 }
 
 table {
@@ -102,11 +118,9 @@ cuando pasas el raton por encima sin clickar */
   opacity: 0.5;
 }
 
-
-
 .span {
-  color: #ffbcbc;
-  font-family: Brush Script MT;
+  color: #E89A9A;
+  font-family: 'Marck Script', cursive;
 }
 playbook {
   display: inline-block; /* inline que se comportan como bloques */
