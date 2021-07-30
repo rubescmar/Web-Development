@@ -91,7 +91,7 @@ playbook {
 
 .nube {
   display: inline-block;
-  height: 150px;
+  height: 130px;
   filter: hue-rotate(65deg);
 }
 
