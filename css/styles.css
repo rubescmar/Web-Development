@@ -20,18 +20,18 @@ body {
 
 
 .intro {
-  width: 75%;
+  width: 100%;
   margin: 0 auto 0 auto;
 }
 
 .mid-container {
-  width: 50%;
+  width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
 }
 
 .footer-container {
-  width: 50%;
+  width: 100%;
   margin: 0 auto 0 auto;
 }
 
