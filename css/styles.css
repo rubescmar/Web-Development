@@ -1,6 +1,8 @@
 /* GOOGLE FONTS PARA INCLUIR FUENTES VIA INTERNET EN LA MISMA PAGINA WEB,
 DE ESTA FORMA INCLUSO SI NO TIENES LA FUENTE INSTALADA, SE RENDERIZA VIA WEB */
 
+/*font-size 16px = 100% = 1em*/
+
 body {
   background-color: #CAF7E3;
   color: #363636;
@@ -24,6 +26,7 @@ hr {
 h1{
   color: #4e8d7c;
   font-family: 'Marck Script', cursive;
+  font-size: 5em;
 }
 
 h3{
@@ -64,15 +67,32 @@ un mismo elemento puede tener varias clases */
   border-radius: 50%;
 }
 
+.nube {
+  display: inline-block;
+  height: 110px;
+  filter: hue-rotate(65deg);
+}
+
 /* Existe otro elemento denominado id, que es en
 esencia lo mismo, la diferencia es que solo puedes usar
 id especifico y si una misma clase, por tanto clase se usa
 para agrupar elementos que se van a comportar igual e id
 es para elementos que se van a comportar diferentes a todos */
 
-#nombre {
-  font-family: 'Marck Script', cursive;
-  font-size: xxx-large;
+#nube1 {
+  margin: 0px 50px 0px 0px;
+}
+
+#nube2 {
+  margin: 0px 0px 0px 50px;
+}
+
+#nube3 {
+  margin: 0px 111px 0px 0px;
+}
+
+#nube4 {
+  margin: 0px 0px 0px 111px;
 }
 
 /* hover es para especificar el comportamiento de un elemento
@@ -94,26 +114,4 @@ playbook {
   cambiar la anchura pero no ocupan toda la anchura disponible */
   display: inline; /* elementos en una misma linea pero a los que no les puedes
   cambiar la anchura */
-}
-
-.nube {
-  display: inline-block;
-  height: 130px;
-  filter: hue-rotate(65deg);
-}
-
-#nube1 {
-  margin: 0px 50px 0px 0px;
-}
-
-#nube2 {
-  margin: 0px 0px 0px 50px;
-}
-
-#nube3 {
-  margin: 0px 111px 0px 0px;
-}
-
-#nube4 {
-  margin: 0px 0px 0px 111px;
 }
