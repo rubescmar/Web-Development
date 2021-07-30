@@ -1,8 +1,12 @@
+/* GOOGLE FONTS PARA INCLUIR FUENTES VIA INTERNET EN LA MISMA PAGINA WEB,
+DE ESTA FORMA INCLUSO SI NO TIENES LA FUENTE INSTALADA, SE RENDERIZA VIA WEB */
+
 body {
   background-color: #CAF7E3;
   color: #363636;
   text-align: center;
   margin: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 hr {
@@ -19,11 +23,13 @@ hr {
 
 h1{
   color: #4e8d7c;
+  font-family: 'Marck Script', cursive;
 }
 
 h3{
   color: #4e8d7c;
   width: auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a{
