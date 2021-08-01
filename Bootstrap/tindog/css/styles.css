@@ -7,10 +7,6 @@
 
 }
 
-#titleScript {
-
-}
-
 .titleImage {
   margin: 0 100px;
   width: 60%;
@@ -55,8 +51,31 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+}
+
+h3 {
+  font-family: Montserrat-Bold 700;
+  font-size: 1.5rem;
+  color: Black;
+}
+
+#featuresContent {
+  text-align: center;
+  padding: 7% 15%;
+  color: #8f8f8f;
 
 }
 
+.featuresIcon {
+  font-size: 4rem;
+  padding: 1rem;
+  color: #ef8172;
+}
 
-/* Cambio */
+.featuresIcon:hover {
+  color: #ff4c68;
+}
+
+.featuresColumn {
+  padding: 5%;
+}
