@@ -1,14 +1,54 @@
 
 #title {
   background-color: #ff4c68;
+  overflow: hidden;
+  padding: 2% 10%;
+
 }
 
-#navbarID {
-  padding: .5rem;
+#titleScript {
+  padding: 5% 0%;
+}
+
+img {
+  margin: 100px;
+}
+
+button {
+margin-right: 10px;
+}
+
+body {
+  font-family: Ubuntu;
+}
+
+.navbar-brand {
+  font-size: 2rem;
 }
 
 h1 {
   font-family: Montserrat-Black 900;
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1.5;
+  font-weight: 900;
+  color: white;
 }
+
+.container-fluid {
+
+}
+
+/* Cambio */
+.rotate {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.g-item {
+    width: 500px;
+    height: 400px;
+}
+/* Cambio */
