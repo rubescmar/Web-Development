@@ -14,7 +14,8 @@
 .titleImage {
   margin: 0 100px;
   width: 60%;
-  transform: rotate(30deg);
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
 }
 
 .g-item {
