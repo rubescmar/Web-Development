@@ -14,11 +14,12 @@
 .titleImage {
   margin: 0 100px;
   width: 60%;
-  -webkit-transform: rotate(30deg);
-  -moz-transform: rotate(30deg);
-  -o-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
   transform: rotate(30deg);
+}
+
+.g-item {
+    width: 500px;
+    height: 400px;
 }
 
 .downloadButton {
@@ -56,8 +57,5 @@ h1 {
 
 }
 
-.g-item {
-    width: 500px;
-    height: 400px;
-}
+
 /* Cambio */
