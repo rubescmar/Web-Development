@@ -1,29 +1,5 @@
 
-#title {
-  background-color: #ff4c68;
-  padding: 3% 10%;
-  color: white;
-  overflow: hidden;
-}
-
-.titleImage {
-  margin: 0 100px;
-  transform: rotate(25deg);
-  -webkit-transform: rotate(25deg);
-}
-
-.g-item {
-  width: 400px;
-  height: 500px;
-}
-
-.downloadButton {
-margin: 5% 3% 5% 0;
-}
-
-body {
-  font-family: Montserrat;
-}
+/* NavBar and Fonts */
 
 .navbar {
   padding: 0 0 4.5rem 0;
@@ -42,6 +18,10 @@ body {
   font-size: 2.5rem;
   font-family: Ubuntu;
   font-weight: bold;
+}
+
+body {
+  font-family: Montserrat;
 }
 
 h1 {
@@ -63,11 +43,69 @@ h3 {
   color: Black;
 }
 
+@media (max-width: 1199px) {
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+
+  
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  padding: 3% 10%;
+  color: white;
+}
+
+.titleImage {
+  margin: auto;
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  position: absolute;
+}
+
+.downloadButton {
+margin: 5% 3% 5% 0;
+}
+
+@media (max-width: 1199px) {
+  .titleImage{
+    position: static;
+    padding: 5%;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+  background-color: white;
+}
+
 #featuresContent {
   text-align: center;
   padding: 7% 15%;
   color: #8f8f8f;
-
 }
 
 .featuresIcon {
@@ -83,6 +121,8 @@ h3 {
 .featuresColumn {
   padding: 5%;
 }
+
+/* Testimonilas Section */
 
 #testimonials {
   text-align: center;
@@ -100,6 +140,8 @@ h3 {
   padding: 7% 15%;
 }
 
+/* Press Section */
+
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -110,6 +152,8 @@ h3 {
   width: 15%;
   margin: 20px 20px 50px;
 }
+
+/* Pricing Section */
 
 #pricing {
   padding: 100px;
