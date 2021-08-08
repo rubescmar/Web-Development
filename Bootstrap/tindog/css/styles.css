@@ -119,7 +119,7 @@ margin: 5% 3% 5% 0;
 @media (max-width: 991px) {
 
   .downloadButton {
-    margin: 5% 1% 5% 0;
+    margin: 0;
     }
 
 }
