@@ -22,23 +22,28 @@ body {
   font-family: Montserrat;
 }
 
-h1 {
-  font-family: Montserrat-Black 900;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.big-heading {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
 h2 {
-  font-family: Montserrat-Bold 700;
   font-size: 3rem;
   line-height: 1.5;
 }
 
 h3 {
-  font-family: Montserrat-Bold 700;
   font-size: 1.5rem;
   color: Black;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 @media (max-width: 1199px) {
@@ -112,12 +117,9 @@ h3 {
 #features {
   position: relative;
   background-color: white;
-}
-
-#featuresContent {
   text-align: center;
   padding: 7% 15%;
-  color: #8f8f8f;
+
 }
 
 .featuresIcon {
@@ -185,10 +187,6 @@ h3 {
 #footer {
   text-align: center;
   padding: 7% 15%;
-}
-
-#footer-p {
-  color: #8f8f8f;
 }
 
 .footer-icon {
