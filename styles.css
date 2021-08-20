@@ -1,0 +1,129 @@
+
+#title {
+  background-color: #ff4c68;
+  padding: 3% 10%;
+  color: white;
+  overflow: hidden;
+}
+
+.titleImage {
+  margin: 0 100px;
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+}
+
+.g-item {
+  width: 400px;
+  height: 500px;
+}
+
+.downloadButton {
+margin: 5% 3% 5% 0;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat-Light;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Montserrat-Black 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: Montserrat-Bold 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Montserrat-Bold 700;
+  font-size: 1.5rem;
+  color: Black;
+}
+
+#featuresContent {
+  text-align: center;
+  padding: 7% 15%;
+  color: #8f8f8f;
+
+}
+
+.featuresIcon {
+  font-size: 4rem;
+  padding: 1rem;
+  color: #ef8172;
+}
+
+.featuresIcon:hover {
+  color: #ff4c68;
+}
+
+.featuresColumn {
+  padding: 5%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.platinumTier {
+	color: silver;
+}
+
+.goldTier {
+	color: gold;
+}
