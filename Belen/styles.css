@@ -4,7 +4,7 @@
 
 .navbar {
   padding: 0.5rem 1rem;
-  background-color: #A685E2;
+  background-color: #6155A6;
 }
 
 .nav-item {
@@ -19,7 +19,6 @@
 .navbar-brand {
   font-family: Ubuntu;
   font-size: 2rem;
-  color: #6155A6;
 }
 
 .d-flex {
@@ -30,13 +29,13 @@
   text-align: center;
   padding: 7% 15%;
   background-color: #FFE6E6;
-  color: #FFABE1;
+  color: #6155A6;
 }
 
 .section2 {
   text-align: center;
   padding: 7% 15%;
-  background-color: #A685E2;
+  background-color: #6155A6;
   color: #FFE6E6;
 }
 
@@ -50,20 +49,17 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-  color: #6155A6;
 }
 
 h2 {
   font-family: Montserrat-Bold 700;
   font-size: 3rem;
   line-height: 1.5;
-  color: #6155A6;
 }
 
 h3 {
   font-family: Montserrat-Bold 700;
   font-size: 1.5rem;
-  color: #6155A6;
 }
 
 .downloadButton {
