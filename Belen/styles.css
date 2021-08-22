@@ -1,31 +1,10 @@
-#title {
-  background-color: #ff4c68;
-  padding: 3% 10%;
-  color: white;
-  overflow: hidden;
-}
 
-.titleImage {
-  margin: 0 100px;
-  transform: rotate(25deg);
-  -webkit-transform: rotate(25deg);
-}
-
-.g-item {
-  width: 400px;
-  height: 500px;
-}
-
-.downloadButton {
-  margin: 5% 3% 5% 0;
-}
-
-body {
-  font-family: Montserrat;
+.navbarSection {
+  background-color: #A685E2;
 }
 
 .navbar {
-  padding: 0 0 4.5rem 0;
+  padding: 0;
 }
 
 .nav-item {
@@ -34,13 +13,40 @@ body {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: Montserrat-Light;
+  font-family: Montserrat-Light 300;
 }
 
 .navbar-brand {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: Ubuntu;
-  font-weight: bold;
+  color: #6155A6;
+}
+
+.section1 {
+  text-align: center;
+  background-color: #FFE6E6;
+  color: #FFABE1;
+}
+
+.section2 {
+  text-align: center;
+  padding: 7% 15%;
+  color: #8f8f8f;
+}
+
+.section3 {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.section4 {
+  padding: 100px;
+  text-align: center;
+}
+
+body {
+  font-family: Montserrat;
 }
 
 h1 {
@@ -48,74 +54,24 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+  color: #6155A6;
 }
 
 h2 {
   font-family: Montserrat-Bold 700;
   font-size: 3rem;
   line-height: 1.5;
+  color: #6155A6;
 }
 
 h3 {
   font-family: Montserrat-Bold 700;
   font-size: 1.5rem;
-  color: Black;
+  color: #6155A6;
 }
 
-#section1 {
-  text-align: center;
-  padding: 7% 15%;
-  color: #8f8f8f;
-}
-
-.featuresIcon {
-  font-size: 4rem;
-  padding: 1rem;
-  color: #ef8172;
-}
-
-.featuresIcon:hover {
-  color: #ff4c68;
-}
-
-.featuresColumn {
-  padding: 5%;
-}
-
-#Mallorca {
-  text-align: center;
-  background-color: #ef8172;
-  color: white;
-}
-
-.testimonials-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-.carousel-item {
-  padding: 7% 15%;
-}
-
-#section3 {
-  background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-#section4 {
-  padding: 100px;
-  text-align: center;
-}
-
-.pricing-column {
-  padding: 3% 2%;
+.downloadButton {
+  margin: 5% 3% 5% 0;
 }
 
 .noBorder {
@@ -125,13 +81,14 @@ h3 {
   margin: auto;
 }
 
-.tier {
-  margin: 50px;
-}
 .platinum {
   color: #00C4C1;
+  padding: 1rem;
+  font-size: 3rem;
 }
 
 .gold {
   color: gold;
+  padding: 1rem;
+  font-size: 3rem;
 }
