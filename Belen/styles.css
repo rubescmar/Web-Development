@@ -20,9 +20,8 @@
   color: #6155A6;
 }
 
-.navbarSection {
-  background-color: #A685E2;
-  color: #FFE6E6;
+.d-flex {
+  padding: 0.5rem 1rem;
 }
 
 .section1 {
