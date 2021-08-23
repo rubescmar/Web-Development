@@ -30,8 +30,11 @@ alert("Si fuera un humano, tu perro tendría " + humanAge + ".");
 function firstCapitalized(name) {
   const firstCharacter = name.slice(0, 1).toUpperCase();
   const restOfName = name.slice(1, name.length).toLowerCase();
-  console.log(firstCharacter + restOfName);
+  const finalName = firstCharacter + restOfName;
+  console.log(finalName);
+  return finalName;
 }
 firstCapitalized("alBertO"); /* Daría como resultado Alberto */
 
 //Siguiente Sección
+
