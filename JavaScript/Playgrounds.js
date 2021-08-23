@@ -36,5 +36,13 @@ function firstCapitalized(name) {
 }
 firstCapitalized("alBertO"); /* Daría como resultado Alberto */
 
-//Siguiente Sección
+//Esto es un ejmplo de un script para tirar dados usando Math.random (genera
+// un número aleatorio entre 0 y 0.9999999999999999) y Math.floor (truncar)
+// o Math.round (redondear).
 
+function rollDice() {
+  var n = Math.random();
+  n = Math.floor(n * 6) + 1;
+  return n;
+}
+rollDice()
