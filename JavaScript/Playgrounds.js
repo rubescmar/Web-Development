@@ -46,3 +46,28 @@ function rollDice() {
   return n;
 }
 rollDice()
+
+// Comparativos en JS
+=== //Igual a
+==  //Igual a pero da igual que sean distintos tipos de datos o mayusculas
+!== //Distinto a
+>   //Mayor a
+<   //Menor a
+>=  //Mayor o igual a
+<=  //Menor o igual a
+&&  //AND
+||  //OR
+!   //NOT
+
+//Control de flujo en JS
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false
+  // and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false
+  // and condition2 is false
+}
+
+//Siguiente secciónote
