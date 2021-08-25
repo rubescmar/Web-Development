@@ -60,6 +60,7 @@ rollDice()
 !   //NOT
 
 //Control de flujo en JS
+//If, else if, else Condition
 if (condition1) {
   //  block of code to be executed if condition1 is true
 } else if (condition2) {
@@ -68,6 +69,17 @@ if (condition1) {
 } else {
   //  block of code to be executed if the condition1 is false
   // and condition2 is false
+}
+
+//While Loop
+while (i < 10) {
+  console.log("The number is " + i);
+  i++;
+}
+
+//For Loop
+for (let i = 0; i < 5; i++) {
+  console.log("The number is " + i);
 }
 
 //Arrays en JS
@@ -102,3 +114,19 @@ function whosPaying(names) {
     return names[pays] + " is going to buy lunch today!";
 }
 whosPaying(["angela", "ben", "jenny", "michael", "chloe"])
+
+//Secuencia de Fibonacci
+function fibonacciGenerator (n) {
+    var output = [];
+    for (var i = 0; i < n; i++) {
+       if (i < 2) {
+            output.push(i);
+        } else {
+            output.push(output[i-2] + output[i-1]);
+        }
+    }
+    return output;
+}
+fibonacciGenerator(15)
+
+//Siguiente
