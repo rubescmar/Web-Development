@@ -70,4 +70,35 @@ if (condition1) {
   // and condition2 is false
 }
 
-//Siguiente secciónote
+//Arrays en JS
+var guestList = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"];
+console.log(guestList.length);  //6
+console.log(guestList[0]);      //Angela
+guestList.includes("Jack");     //true
+
+/*Script que saluda a invitados y niega la entrada a no invitados,
+en primer lugar pegamos el script para devolver un nombre escrito
+sin tener en cuenta mayúsculas y minúsculas porque array.includes
+necesita que el nombre sea identico*/
+function firstCapitalized(name) {
+  const firstCharacter = name.slice(0, 1).toUpperCase();
+  const restOfName = name.slice(1, name.length).toLowerCase();
+  const finalName = firstCharacter + restOfName;
+  console.log(finalName);
+  return finalName;
+}
+
+const guestPermited = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"];
+const asker = prompt("Welcome to the party!, What's your name?");
+if (guestPermited.includes(firstCapitalized(asker))) {
+    alert("Welcome to the party " + firstCapitalized(asker) + "!");
+} else {
+    alert("I'm sorry you don't seem to be included in our guest list.")
+}
+
+//Who pays today
+function whosPaying(names) {
+    var pays = Math.floor(Math.random() * names.length);
+    return names[pays] + " is going to buy lunch today!";
+}
+whosPaying(["angela", "ben", "jenny", "michael", "chloe"])
