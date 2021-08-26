@@ -27,13 +27,15 @@ h3 {
   margin: 10px 15px;
 }
 
+.button{
+  margin: 50px 15px;
+}
+
 .logo {
   width: 30%;
-  margin-left: 10px;
 }
 
 table {
-
 }
 
 i {
@@ -41,6 +43,7 @@ i {
 }
 
 footer {
+  text-align: center;
   display: inline-block;
   color: #A7D6D0;
 }
