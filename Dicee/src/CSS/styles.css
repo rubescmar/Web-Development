@@ -1,4 +1,45 @@
-h1 {
+body {
+  background-color: #363636;
   font-family: Poppins;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+h1 {
   font-weight: 700;
+  font-size: 3rem;
+  color: #C4EBCF;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #F5BFBD;
+}
+
+.container {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.dice {
+  width: 50%;
+  margin: 10px 15px;
+}
+
+.logo {
+  width: 30%;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+}
+
+i {
+  margin: 10px 15px;
+}
+
+footer {
+  color: #A7D6D0;
 }
