@@ -47,10 +47,10 @@ function lanzarDados() {
   lanzarDado1();
   lanzarDado2();
   if (player1Number > player2Number) {
-    document.querySelector("h1").innerHTML = "<strong>Player 1 Wins!</strong>";
+    document.querySelector("h1").innerHTML = "Player 1 Wins!";
   } else if (player1Number === player2Number) {
-    document.querySelector("h1").innerHTML = "<strong>It's a draw!</strong>";
+    document.querySelector("h1").innerHTML = "It's a draw!";
   } else {
-    document.querySelector("h1").innerHTML = "<strong>Player 2 Wins!</strong>";
+    document.querySelector("h1").innerHTML = "Player 2 Wins!";
   }
 }
