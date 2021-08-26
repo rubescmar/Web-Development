@@ -16,6 +16,11 @@ document.getElementById("botoncito").style.color = "white";
 
 /*document.querySelector('...') is a bit more special due to using selectors,
 selector are what we use in css BEFORE the brackets, and you can combine
-them as well just as you can with CSS, so it is more powerfull*/
+them as well just as you can with CSS, so it is more powerfull.
+When combining selector you have to know that same hierarquical selectors
+dont have a space in between, and diferent hierarquical selectors you
+have to specify the higher one first, then a space, then the Second.
+document.querySelectorAll gives you an array instead of an specific object*/
 document.querySelector(".link.list").style.backgroundColor = "pink";
 document.querySelector("li a").style.backgroundColor = "yellow";
+console.log(document.querySelectorAll('a'));
