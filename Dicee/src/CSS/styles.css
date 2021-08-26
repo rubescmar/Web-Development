@@ -29,11 +29,11 @@ h3 {
 
 .logo {
   width: 30%;
+  margin-left: 10px;
 }
 
 table {
-  margin: auto;
-  width: 90%;
+
 }
 
 i {
@@ -41,5 +41,6 @@ i {
 }
 
 footer {
+  display: inline-block;
   color: #A7D6D0;
 }
