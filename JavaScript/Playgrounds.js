@@ -82,6 +82,28 @@ for (let i = 0; i < 5; i++) {
   console.log("The number is " + i);
 }
 
+//Switch statement
+switch (expr) {
+  case 'Naranjas':
+    console.log('El kilogramo de naranjas cuesta $0.59.');
+    break;
+  case 'Manzanas':
+    console.log('El kilogramo de manzanas cuesta $0.32.');
+    break;
+  case 'Platanos':
+    console.log('El kilogramo de platanos cuesta $0.48.');
+    break;
+  case 'Cerezas':
+    console.log('El kilogramo de cerezas cuesta $3.00.');
+    break;
+  case 'Mangos':
+  case 'Papayas':
+    console.log('El kilogramo de mangos y papayas cuesta $2.79.');
+    break;
+  default:
+    console.log('Lo lamentamos, por el momento no disponemos de ' + expr + '.');
+}
+
 //Arrays en JS
 var guestList = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"];
 console.log(guestList.length);  //6
@@ -179,3 +201,60 @@ lastUlItem.innerHTML = "<em>JS innerHTML changed, including em tag</em>";
 console.log(document.querySelector("#googleLink").attributes);
 console.log(document.querySelector("#googleLink").getAttribute("href"));
 document.querySelector("#googleLink").setAttribute("href", "https://www.bing.es");
+
+/*addEventListener is a method that listens to an specific event which
+can be looked up with MDN Docs*/
+document.getElementsByClassName("btn")[0].addEventListener("click", "function")
+
+/* Higher order functions are functions that can take other functions as an
+input*/
+function add (num1, num2) {
+  return num1 + num2;
+}
+function higherOrderFunction (num1, num2, operator) {
+  return operator (num1, num2);
+}
+higherOrderFunction(3, 4, add) //7
+
+/*With modern browsers you can call the function debugger at the JS console
+before a function to see how the browser manages that function and discern
+posible malfunctions*/
+debugger;
+function add (num1, num2) {
+  return num1 + num2;
+}
+function higherOrderFunction (num1, num2, operator) {
+  return operator (num1, num2);
+}
+higherOrderFunction(3, 4, add)
+
+//this refers to the object that is doing the functions
+this.innerHTML = "hello";
+
+//JS objects
+var bellBoy1 = {
+  name: "Timmy",
+  age: 19,
+  hasWorkPermise: true,
+  languages: ["French", "English"]
+}
+bellBoy1.hasWorkPermise; //true
+
+//Constructor functions (first letter is CAPITALIZED)
+function BellBoy (name, age, hasWorkPermise, languages) {
+  this.name = name;
+  this.age = age;
+  this.hasWorkPermise = hasWorkPermise;
+  this.languages = languages;
+  this.acknowledge = function () {
+    alert("I will do it right away, sir!");
+  }
+}
+var bellBoy1 = new BellBoy ("Timmy", 16, true, ["spanish", "english"]);
+console.log(bellBoy1.age);//16
+bellBoy1.acknowledge()//calls the method
+
+//Callback Functions
+document.addEventListener("keydown", function(/*event*/) { 
+  console.log(event.key)//that's a callback
+});
