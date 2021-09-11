@@ -255,6 +255,63 @@ console.log(bellBoy1.age);//16
 bellBoy1.acknowledge()//calls the method
 
 //Callback Functions
-document.addEventListener("keydown", function(/*event*/) { 
+document.addEventListener("keydown", function(/*event*/) {
   console.log(event.key)//that's a callback
 });
+
+//jquery
+
+//$ = document.querySelector, css methods calls for changes in the css,
+//the first string refers to the property and the second to the value.
+$("h1").css("color", "green");
+
+//you can add and remove classes with jquery too
+$("h1").addClass("big-title");
+$("h1").removeClass("big-title");
+
+//You can add or remove multiple classes too
+$("h1").addClass("big-title margin-50");
+
+//Or ask if it has the class implied
+$("h1").hasClass("margin-50");
+
+//Manipulating text with jQuery
+$("h1").text("all the text gets changed to this");
+$("h1").html("<em>all the text gets changed to this</em>");
+
+//Manipulating attributes with jQuery
+$("h1").attr("class", "big-title");
+
+//Adding events listeners, you don't have too add a loop here to implement
+//an event listener through all the selectors
+$("h1").click(function() {
+  $("h1").css("color" , "red");
+});
+$("h1").on("typeOfEvent", function(event) {
+  $("h1").text(event.key);
+}); //The events you can look for in MDN Docs
+
+//Change an h1 through key pressed
+$(document).keypress(function(event) {
+  $("h1").text(event.key);
+});
+
+//Creating html elements through jQuery
+$("h1").before("<button>Click Me!</button>"); //before the tag h1
+$("h1").after("<button>Click Me!</button>"); //after the tag h1
+$("h1").prepend("<button>Click Me!</button>"); //Inside the h1 at the beginning
+$("h1").append("<button>Click Me!</button>"); //Inside the h1 at the end
+
+//Removing html elements
+$("h1").remove();
+
+//Hiding/showing elements
+.hide()
+.show()
+.toggle()
+.fadeIn()
+.fadeOut()
+.fadeToggle()
+.slideup()
+.slideDown()
+.slideToggle()
