@@ -305,7 +305,7 @@ $("h1").append("<button>Click Me!</button>"); //Inside the h1 at the end
 //Removing html elements
 $("h1").remove();
 
-//Hiding/showing elements
+//Animating elements
 .hide()
 .show()
 .toggle()
@@ -315,3 +315,5 @@ $("h1").remove();
 .slideup()
 .slideDown()
 .slideToggle()
+.animate() //Insert css inside curly bracers, it slowly changes towards that,
+          //but it only works with numeric values of css.
